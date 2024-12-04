@@ -1,3 +1,5 @@
+# gpmodel_class.py
+
 import gpflow
 import numpy as np
 import pandas as pd
