@@ -1,3 +1,4 @@
+#export_prior_from_idx.py
 from gpmodel_class import GPModel
 
 prior_path = '../dataset/Prior.csv'
