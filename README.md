@@ -34,3 +34,9 @@ This project provides:
     'total_timesteps': 2000,
     'n_steps': 10,
     'checkpoint': 100,}
+
+   Also edit data path in file in this function:
+   def train(wandb_usage=False):
+    prior_path = '../dataset/Prior.csv'
+    test_path = '../dataset/Test.csv'
+    best_train_prior_path = '../results/best_prior_train.csv'
