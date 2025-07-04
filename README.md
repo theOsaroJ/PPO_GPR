@@ -40,3 +40,6 @@ This project provides:
     prior_path = '../dataset/Prior.csv'
     test_path = '../dataset/Test.csv'
     best_train_prior_path = '../results/best_prior_train.csv'
+   
+4. **Evaluate PPO model**
+   python3 evaluate.py
