@@ -22,5 +22,16 @@ This project provides:
 
 2. **Install requirements**
    ```bash
-   2. pip install --upgrade pip
+   pip install --upgrade pip
    pip install -r requirements.txt
+
+3. **Train the PPO agent**
+   ```bash
+   python train.py [users can modify the configurations in the train.py file], for example:
+   
+   config = {
+    'GPR_batch': 10,
+    'total_timesteps': 2000,
+    'n_steps': 10,
+    'checkpoint': 100,
+}
