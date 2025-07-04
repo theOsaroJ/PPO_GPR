@@ -33,5 +33,4 @@ This project provides:
     'GPR_batch': 10,
     'total_timesteps': 2000,
     'n_steps': 10,
-    'checkpoint': 100,
-}
+    'checkpoint': 100,}
