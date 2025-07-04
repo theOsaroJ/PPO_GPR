@@ -20,6 +20,7 @@ This project provides:
    git clone https://github.com/theOsaroJ/PPO_GPR.git
    cd PPO_GPR
 
+2. **Install requirements**
    ```bash
    2. pip install --upgrade pip
    pip install -r requirements.txt
