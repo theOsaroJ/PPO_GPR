@@ -6,7 +6,7 @@
 This project provides:
 - **`scripts/`** – Python scripts for data preprocessing, model training (PPO & GPR), and evaluation.
 - **`dataset/`** – Raw and processed data files used by the training scripts.
-- **`Examples/`** – Jupyter notebooks demonstrating end-to-end workflows.
+
 
 ## Prerequisites
 - **Python 3.8+**  
@@ -19,3 +19,7 @@ This project provides:
    ```bash
    git clone https://github.com/theOsaroJ/PPO_GPR.git
    cd PPO_GPR
+
+   ```bash
+   2. pip install --upgrade pip
+   pip install -r requirements.txt
