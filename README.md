@@ -15,6 +15,8 @@ This project provides:
 - ≥ 8 GB RAM and ≥ 10 GB free disk space  
 
 ## Dataset curation
+= Pick Prior data and put into dataset folder
+- The remaining data should also be kept in a csv file, shuffled and perhaps split into validation (testing) and unlabeled data using the 
 
 ## Installation
 1. **Clone the repository**  
