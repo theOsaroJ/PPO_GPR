@@ -42,4 +42,5 @@ This project provides:
     best_train_prior_path = '../results/best_prior_train.csv'
    
 4. **Evaluate PPO model**
+   ```bash
    python3 evaluate.py
