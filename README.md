@@ -40,6 +40,8 @@ This project provides:
     prior_path = '../dataset/Prior.csv'
     test_path = '../dataset/Test.csv'
     best_train_prior_path = '../results/best_prior_train.csv'
+
+   NOTE: USERS NEED TO MODIFY gpmodel_class.py to reflect the training columns they have for their day. In our case, it has been X1-X4 /X5 in our case.
    
 4. **Evaluate PPO model**
    ```bash
