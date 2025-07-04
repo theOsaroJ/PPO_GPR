@@ -35,7 +35,7 @@ This project provides:
     'n_steps': 10,
     'checkpoint': 100,}
 
-   Also edit data path in file in this function:
+   Also edit data path in file with this function:
    def train(wandb_usage=False):
     prior_path = '../dataset/Prior.csv'
     test_path = '../dataset/Test.csv'
