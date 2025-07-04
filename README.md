@@ -14,6 +14,8 @@ This project provides:
 - **CUDA** (optional, for GPU acceleration)  
 - ≥ 8 GB RAM and ≥ 10 GB free disk space  
 
+## Dataset curation
+
 ## Installation
 1. **Clone the repository**  
    ```bash
@@ -53,3 +55,6 @@ b. put this list into of export_prior_from_idx.py and the same batch size used i
 c. run and get the final training data
    ```bash
    python export_prior_from_idx.py
+
+
+
