@@ -1,2 +1,2 @@
 ---
-This conatins the simulation script for a quaternarary simulation in MOFs
+This contains the simulation script for a quaternary simulation in MOFs. It also contains the data for the two MOFs studied - CuBTC and IRMOF1.
