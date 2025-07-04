@@ -44,3 +44,10 @@ This project provides:
 4. **Evaluate PPO model**
    ```bash
    python3 evaluate.py
+
+5. **Get best training data**
+a. pick the idx from best_prior_eval.csv based on user level of accuracy and amount of training data
+b. put this list into of export_prior_from_idx.py and the same batch size used in training
+c. run and get the final training data
+```bash
+   python export_prior_from_idx.py
