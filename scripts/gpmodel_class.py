@@ -25,11 +25,11 @@ class GPModel():
         
         # Extract test data
         self.test_data = pd.read_csv(self.data_file[1], delimiter=',')
-        self.X_test = self.test_data[['X1', 'X2', 'X3', 'X4', 'X5']]
+        self.X_test = self.test_data[['X1', 'X2', 'X3', 'X4', 'X5','X6']]
         self.y_actual = self.test_data[['y']]
         
-        if set(self.X_test.columns.values) != set(['X1', 'X2', 'X3', 'X4', 'X5']):
-            raise ValueError(f'X_test column names must be [\'X1\', \'X2\', \'X3\', \'X4\' , \'X5\'], got {self.X_test.columns.values}')
+        if set(self.X_test.columns.values) != set(['X1', 'X2', 'X3', 'X4', 'X5','X6']):
+            raise ValueError(f'X_test column names must be [\'X1\', \'X2\', \'X3\', \'X4\' , \'X5\', \'X6\'], got {self.X_test.columns.values}')
         
         if self.y_actual.columns.values != ['y']:
             raise ValueError(f'y_actual column names must be [\'y\'], got {self.y_actual.columns.values}')
@@ -61,11 +61,12 @@ class GPModel():
         return (y - self.y_m)/self.y_std
     
     def extract_x_data(self, df, prior=True):
+        # we exlcude methane mole fraction
         x1 = df.iloc[:, 0].values / 1e5
         x2 = df.iloc[:, 1].values
-        x3 = df.iloc[:, 2].values
-        x4 = df.iloc[:, 3].values
-        x5 = df.iloc[:, 4].values
+        x3 = df.iloc[:, 3].values
+        x4 = df.iloc[:, 4].values
+        x5 = df.iloc[:, 5].values
  
         #Transforming 1D arrays to 2D
         x1 = np.atleast_2d(x1).flatten().reshape(-1,1)
