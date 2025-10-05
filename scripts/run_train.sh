@@ -1,6 +1,5 @@
 #!/bin/bash
 #$ -q long
-# -l gpu_card=1
 #$ -N QuaternaryPPO
 #$ -pe smp 16
 
